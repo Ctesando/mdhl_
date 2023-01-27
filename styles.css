@@ -22,7 +22,7 @@
   }
 
   .section1{
-    margin-top: 25px;
+    margin-top: 20px;
   }
   .subtitulo{
     margin-top: 0;
@@ -35,6 +35,7 @@
  
   nav{
   position: absolute;
+  top: 60px;
   right: 20px;
   
   }
@@ -54,10 +55,7 @@
     background-color: green;
   }
 
- .divtwo{
-  display: block;
-
- }
+ 
   section > figure, div{
     display: inline-block;
   }
@@ -86,7 +84,7 @@
 
   .contact{
     position: relative;
-    bottom: 50px;
+    bottom: 76px;
     margin-left: 10px;
 
   }
@@ -110,5 +108,5 @@
   .figulog3{
     margin-left: 2px;
     position: relative;
-    top:10px;
+    bottom: 15px;
   }
