@@ -56,7 +56,7 @@
   }
 
  
-  section > figure, div{
+  .section1 > figure, div{
     display: inline-block;
   }
   figure{
