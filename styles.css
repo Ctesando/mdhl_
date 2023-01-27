@@ -1,0 +1,114 @@
+*{
+    font-family: cursive;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  header{
+    background-image:url(./Imagenes/fondo2.jpg);
+    background-size: cover;
+    min-height: 400px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+   h1{
+    color: rgb(29, 27, 41);
+    font-size: 3.5rem;
+    font-weight: 200;
+    margin:0 10px;
+   
+  }
+
+  .section1{
+    margin-top: 25px;
+  }
+  .subtitulo{
+    margin-top: 0;
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border: 1.8px solid black
+  }
+ 
+  nav{
+  position: absolute;
+  right: 20px;
+  
+  }
+
+  .nav-item {
+    margin: 2px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    background-color: blue;
+    border: 3px solid black;
+    box-shadow: 0 5px 15px 0 rgb(88, 88, 105);
+    color: azure;
+    text-decoration: none;
+  }
+
+  .activo{
+    background-color: green;
+  }
+
+ .divtwo{
+  display: block;
+
+ }
+  section > figure, div{
+    display: inline-block;
+  }
+  figure{
+    margin:0px 30px;
+   
+  }
+
+  .logo-md{
+    width: 150px;
+    height:150px;
+    
+  }
+  p{
+    margin-bottom: 25px;
+  }
+  .about{
+    width: 65%;
+    margin-top: 0;
+  }
+
+  .img2{
+    margin: 30px 200px;
+   
+  } 
+
+  .contact{
+    position: relative;
+    bottom: 50px;
+    margin-left: 10px;
+
+  }
+  .event{
+    margin-left: 10px;
+    width: 60%;
+  }
+
+  .figulog{
+    margin-left: 2px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .figulog2{
+    margin-left: 2px;
+    position: relative;
+    bottom: 190px;
+  }
+
+  .figulog3{
+    margin-left: 2px;
+    position: relative;
+    top:10px;
+  }
