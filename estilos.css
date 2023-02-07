@@ -10,10 +10,10 @@
   }
   
 header{
-  margin-top: 0;
+    margin-top: 0;
     background-image:url(./imgs/fondo2.jpg);
     background-size: cover;
-    min-height: 500px;
+    min-height: 380px;
     max-width: 100%;
     background-repeat: no-repeat;
     background-position: top;
@@ -26,9 +26,8 @@ header{
     justify-content:center;
     align-items: center;
     color: whitesmoke;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 200;
-    margin: 30px;
     text-shadow: 0px 0px 14px #daf498;
 
 } 
@@ -57,7 +56,6 @@ header{
 }
 
 .subtitulo{
-  margin-top:0 ;
   font-size: 2rem;
   color:#f0f8ff;
   background-color:black;
@@ -69,7 +67,7 @@ header{
 .logo-md{
   display:inline-block;
   position: relative;
-  bottom: 130px;
+  bottom: 90px;
 }
 
 .section1{
@@ -126,9 +124,15 @@ p{
 }
 
 .section_info{
- margin:30px;
- width: 85%;
+ margin :30px 150px;
+ width: 70%;
+ 
 }
+.section_info > h2 {
+  text-align: center;
+}
+
+
 
 .title-info{
   font-size: 2rem;
@@ -205,11 +209,13 @@ ul{
 
 footer{
 background-color: #2a317d;
-margin-top: 50px;
+position: reative;
+bottom: 0;
+margin-top: 20px;
 text-align: center;
 font-size: 18px;
 box-shadow: 13px 0px 13px yellowgreen;
-border-radius:8 px;
+
 }
 
 .footer-logo {
@@ -224,3 +230,558 @@ footer > p{
   color: #f0f8ff;
   padding-bottom: 10px;
 }
+
+/* Registration*/
+
+#container {
+  border: solid 3px #2a317d;
+  max-width: 900px;
+  margin: 60px auto;
+ 
+  
+}
+
+form {
+  margin: 10px;
+  border-radius: 20px;
+  
+}
+
+.titulo_re {
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 7px;
+  text-align: center;
+  text-shadow: 0px 0px 14px yellowgreen;
+ 
+}
+
+.icon_registration{
+  display: flex;
+  justify-content: center;
+  margin:20px auto 0;
+  width: 100%;
+}
+
+
+.name , .label , .grade, .gender{
+  margin-bottom: 10px;
+}
+
+ .name > input{
+  width:100%;
+  
+}
+.label >input{
+  width: 100%;
+}
+ .gender >input{
+  width: fit-content;
+  
+  
+ }
+.grade >input{
+  width:auto;
+ 
+
+}
+
+
+fieldset > .div-school, .divschool2{
+  display: flex;
+  flex-direction:row;
+  justify-content: start;
+
+  
+
+}
+label{
+ padding:10px 0px;
+ margin: 5px 4px ;
+  
+}
+
+input{
+  padding: 5px 0px;
+   margin-left: 12px;
+  border: none;
+	border-bottom: solid 2px #110f0e;
+	color: #2a317d;
+  font-weight: 400;
+  font-size: medium;
+  background-color:rgb(245, 245, 225) ;
+
+ 
+}
+
+fieldset{
+  margin:25px;
+  padding: 15px;
+}
+#form_button {
+  
+  background: #144748;
+  border: solid 2px #144748;
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+
+}
+
+#form_button:hover {
+  background: #2a317d;
+  color: #F2F3EB;
+}
+.submit{
+  margin: 30px 70px;
+}
+
+
+iframe {
+  margin: 30px;
+  padding: 20px;
+  
+}
+
+
+/*show data */
+
+#h1 {
+    background: #2a317d;
+    color: whitesmoke;
+    font-size: 3rem;
+
+    
+}
+.container-table {
+    display: flex;
+    justify-content: center;
+    margin: 100px 200px;
+    width: 80%;
+}
+
+  /*responsive*/
+
+  @media screen and (max-width: 1200px){
+    div{
+      width:100%;
+    }
+    .titulo{
+      margin:0;
+      width: 100%;
+      height: 60px;
+      font-size: 2.5rem;
+      font-weight: 300;
+   }
+   .logo-md{
+   bottom: 65px;
+    right: 8px;
+    width: 130px;
+    height:130px;
+  }
+  
+  
+  nav{
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+  }
+  
+  .nav-item{
+  margin:10px;
+  font-size: medium;
+  
+  }
+  .subtitulo{
+    font-size: 1.7rem;
+   }
+  
+   .img2{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+   
+   }
+   .parrafo{
+   
+    margin-left: 40px;
+   
+   }
+  
+   .section_info{
+    margin: 50px 70px;
+   }
+  table{
+    margin-left: 20px;
+  }
+  
+  iframe {
+    margin: 10px 200px;
+   
+  }
+  #container{
+  margin: 50px 20px;
+  width: 95%;
+  }
+  
+  }
+
+  @media screen and (max-width: 800px){
+    div{
+      width: 100%;
+    }
+    .titulo{
+      margin:0;
+      width: 100%;
+      height: 60px;
+      font-size: 2rem;
+      font-weight: 300;
+      text-shadow: 0px 0px 15px #daf498;
+       
+     }
+     header{
+      min-height: 300px;
+      max-width: 100%;
+         
+     }
+    
+     .logo-md{
+       display:inline-block;
+       position: relative;
+       bottom: 10px;
+       right: 8px;
+       width: 90px;
+       height: 90px;
+     }
+    
+     nav{
+       flex-wrap: wrap;
+       justify-content:space-evenly;
+       
+     }
+    
+    .nav-item{
+    margin:5px;
+    font-size: small;
+     
+    }
+    .subtitulo{
+     font-size: 1.2rem;
+    }
+    .section1{
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 30px 10px;
+     
+     
+    }
+    h3, p{
+     font-size: medium;
+    
+    }
+    
+    .img2{
+     width: 300px;
+     height: 300px;
+     margin-left: 15px;
+    
+    }
+    .contact{
+      flex-wrap: wrap;
+      justify-content:space-around ;
+      margin:30px 20px;
+      text-align: center;
+     
+     }
+    
+    footer{
+     margin-top: 20px;
+    }
+    footer >p{
+     font-size: small;
+    }
+    .footer-logo{
+     width: 30px;
+     height: 30px;
+    }
+    
+    .section_info > h2{
+     font-size:x-large;
+    }
+    
+    .section_info{
+     margin :10px 5px;
+     width: 95%;
+     
+    } 
+    ul{
+     font-size: medium;
+    }
+    
+    ol{
+     width: 95%;
+    }
+    li{
+     margin: 10px;
+    }
+    
+    .title-info{
+      font-size:x-large;
+    
+    }
+    
+    table{
+     margin: 10px 2px;
+    }
+    
+    th{
+     font-size: small;
+    }
+    tr,td {
+     width: 30%;
+     text-align: center;
+     padding: 2px;
+    }
+    .display-p{
+    flex-wrap: wrap;
+    justify-content:space-around;
+    }
+    
+    iframe {
+    margin: 10px 80px;
+    width: 300px;
+    height: 300px;
+    
+     
+    }
+    #container {
+     border: solid 2px #2a317d;
+     width: auto;
+     margin: 20px 8px;  
+    }
+    
+    .formulario{
+     margin: 20px 10px;
+    }
+    .titulo_re {
+     font-size: 20px;
+     text-align: center;
+     text-shadow: 0px 0px 14px yellowgreen;
+    }
+    .icon_registration{
+     margin:10px auto 0;
+     width: 70%;
+     
+    }
+    fieldset{
+    margin: 10px;
+    padding: 5px;
+    font-size: medium;
+    }
+    
+    form{
+     margin: 0;
+     width: auto;
+    }
+    
+    .formulario{
+     margin:0;
+    }
+    
+    fieldset > .div-school, .divschool2{
+    flex-wrap: wrap;
+    }
+    
+    #form_button {
+     padding: 18px;
+     border: solid 1px #144748;
+     font-size: 1em;
+    
+    }
+    .grade{
+     display: flex;
+     flex-wrap: wrap;
+    
+    }
+    
+    }
+@media screen and (max-width: 500px){
+  div{
+    width: 100%;
+  }
+
+  .titulo{
+   margin: 1px;
+   width: 100%;
+   height: 50px;
+   font-size: 1.2rem;
+   font-weight: 200;
+   text-shadow: 0px 0px 14px #daf498;
+    
+  }
+  header{
+    min-height: 300px;
+    max-width: 100%;
+      
+  }
+
+  .logo-md{
+    display:inline-block;
+    position: relative;
+    bottom: 15px;
+    width: 80px;
+    height: 80px;
+  }
+
+  nav{
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+  }
+
+.nav-item{
+ margin:5px;
+ font-size:x-small;
+  
+}
+.subtitulo{
+  font-size: 1rem;
+}
+.section1{
+ flex-wrap: wrap;
+ justify-content:center;
+ margin: 30px 10px;
+  
+  
+}
+h3, p{
+  font-size: small;
+
+}
+
+.img2{
+  width: 280px;
+  height: 280px;
+  margin-left: 15px;
+}
+footer{
+  margin-top: 20px;
+}
+footer >p{
+  font-size: x-small;
+}
+.footer-logo{
+  width: 25px;
+  height: 25px;
+}
+.contact{
+  flex-wrap: wrap;
+  justify-content:space-around ;
+  margin:30px 20px;
+ 
+}
+.section_info > h2{
+  font-size:larger;
+}
+
+.section_info{
+  margin :10px 5px;
+  width: 90%;
+  
+} 
+ul{
+  font-size: small;
+}
+
+ol{
+  width: 90%;
+}
+li{
+  margin: 8px;
+}
+
+.title-info{font-size: larger;
+
+}
+
+table{
+  margin: 10px 2px;
+}
+
+th{
+  font-size: smaller;
+}
+tr,td {
+  width: 20%;
+  text-align: center;
+  padding: 1px;
+}
+.display-p{
+ flex-wrap: wrap;
+  justify-content:start;
+}
+
+iframe {
+  margin: 5px;
+ width: 300px;
+ height: 300px;
+  
+}
+#container {
+  border: solid 2px #2a317d;
+  width: auto;
+  margin: 20px 8px;  
+}
+
+.formulario{
+  margin: 20px 10px;
+}
+.titulo_re {
+  font-size: 12px;
+  text-align: center;
+  text-shadow: 0px 0px 14px yellowgreen;
+}
+.icon_registration{
+  margin:10px auto 0;
+  width: 70%;
+  
+}
+fieldset{
+ margin: 10px;
+ padding: 5px;
+ font-size: small;
+}
+
+form{
+  margin: 0;
+  width: auto;
+}
+ 
+ .formulario{
+  margin:0;
+ }
+
+ fieldset > .div-school, .divschool2{
+flex-wrap: wrap;
+ }
+
+ #form_button {
+  padding: 18px;
+  border: solid 1px #144748;
+  font-size: 0.7em;
+ 
+
+}
+.grade{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+}
+
+
